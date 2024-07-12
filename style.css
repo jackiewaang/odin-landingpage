@@ -1,0 +1,173 @@
+*{
+    font-family:Roboto;
+}
+
+body{
+    margin:0; /*remove outer border*/
+}
+
+.container-one, .container-five{
+    background-color:#1F2937;
+}
+
+.container-one{
+    padding:6px 400px 150px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+.logo, .main-text, .title-button, .call-title, .call-button{
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+.logo{
+    font-size:24px;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:flex-end;
+    gap:32px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.main-text{
+    font-size:48px;
+    margin-bottom:-16px;
+}
+
+.subtext, a{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.title-button{
+    font-size:18px;
+    padding:12px 36px;
+    border-style:none;
+}
+
+.main-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+img{
+    margin-left:100px;
+}
+
+.info-title{
+    font-size:36px;
+    font-weight:1000;
+    color:#1F2937;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.box-container{
+    display:flex;
+    justify-content:center;
+    gap:100px;
+}
+
+.box{
+    outline:5px solid #3882F6;
+    width:180px;
+    height:180px;
+}
+
+
+.box-text{
+    color:gray;
+    text-align:center;
+    font-size:18px;
+}
+
+.item{
+    max-width:190px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.container-two{
+    margin-bottom:100px;
+}
+
+.container-three{
+    background-color:#E5E7EB;
+}
+
+.quote-text{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:300;
+    font-style:italic;
+}
+
+.author{
+    font-size:26px;
+    color:#1F2937;
+    font-weight:1000;
+    text-align:right;
+}
+
+.quote-container{
+    padding:150px 550px;
+}
+
+.container-four{
+    color:#F9FAF8;
+}
+
+.call-container{
+    margin:100px 200px;
+    padding:50px 150px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.call-title{
+    font-size:26px;
+}
+
+.call-subtext{
+    font-size:20px;
+}
+
+.call-button{
+    border-color:#F9FAF8;
+    width:150px;
+    height:50px; 
+    border-style:solid;
+    font-size:18px;
+    padding:14px 40px;   
+}
+
+.footer{
+    color: #F9FAF8;
+    padding:50px 100px;
+    text-align:center;
+}
+
+.call-button, .box, .title-button{
+    border-radius:8px;
+}
+
+.title-button, .call-container, .call-button{
+    background-color:#3882F6;
+}
